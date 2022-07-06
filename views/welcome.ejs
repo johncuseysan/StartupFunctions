@@ -1,0 +1,15 @@
+
+<%- include('../index.html')%>
+
+<script>
+    $(document).ready(function(){
+
+       $("#myButton").html("<button type='button' class='btn btn-success' >Set text content for all p elements</button>");
+       
+       $("button").click(function(){
+        $("p").text("Hello world!");
+      });
+
+
+    });
+</script>
